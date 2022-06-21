@@ -1,0 +1,216 @@
+hsp1:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp1_actor.pt
+hsp2:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp2_actor.pt
+hsp3:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp3_actor.pt
+hsp4:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp4_actor.pt
+hsp5:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp5_actor.pt
+hsp6:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp6_actor.pt
+hsp7:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp7_actor.pt
+hsp8:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp8_actor.pt
+hsp9:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp9_actor.pt
+hsp10:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp10_actor.pt
+hsp11:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp11_actor.pt
+hsp12:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp12_actor.pt
+hsp13:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp13_actor.pt
+hsp14:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp14_actor.pt
+hsp15:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp15_actor.pt
+hsp16:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp16_actor.pt
+hsp17:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp17_actor.pt
+hsp18:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp18_actor.pt
+hsp19:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp19_actor.pt
+hsp20:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp20_actor.pt
+hsp21:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp21_actor.pt
+hsp22:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp22_actor.pt
+hsp23:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp23_actor.pt
+hsp24:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp24_actor.pt
+hsp25:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp25_actor.pt
+hsp26:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp26_actor.pt
+hsp27:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp27_actor.pt
+hsp28:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp28_actor.pt
+hsp29:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp29_actor.pt
+hsp30:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp30_actor.pt
+hsp31:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp31_actor.pt
+hsp32:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp32_actor.pt
+hsp33:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp33_actor.pt
+hsp34:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp34_actor.pt
+hsp35:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp35_actor.pt
+hsp36:
+    policy_config_path: distant_tomato/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model:
+        actor: distant_tomato/hsp/s1/hsp36_actor.pt
