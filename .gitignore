@@ -18,7 +18,7 @@ logs
 *.out
 *.log
 png
-s1/*.pt
+*/s1/*.pt
 
 docker
 dataset
