@@ -45,6 +45,6 @@ For the first stage, go to directory `hsp/scripts` and run `./hsp/s1/distant_tom
 
 
 
-Then we do evaluation for each pair of biased policy and adaptive policy to compute expected event counts. Run `./eval_events.sh` in directory `hsp/scripts`. After evaluation is done, run `python hsp/greedy_select.py --layout distant_tomato --k 18` to select biased policies and generate training configuration about policies in `hsp/policy_pool/distant_tomato/hsp/s2/train.yml`.
+Then we do evaluation for each pair of biased policy and adaptive policy to compute expected event counts. Run `./eval_events.sh` in directory `hsp/scripts`. After evaluation is done, run `python hsp/greedy_select.py --layout distant_tomato --k 18` which automaically selects biased policies and generates training configuration about policies in `hsp/policy_pool/distant_tomato/hsp/s2/train.yml`.
 
 For the second stage, run `./hsp/s2/distant_tomato.sh` in directory `hsp/scripts` to do adaptive training.
