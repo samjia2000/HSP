@@ -23,5 +23,5 @@ do
      --ppo_epoch 15 \
      --cnn_layers_params "32,3,1,1 64,3,1,1 32,3,1,1" --save_interval 25 --log_inerval 10 --use_recurrent_policy\
      --overcooked_version ${version} \
-     --wandb_name "samji2000" --user_name "gaojiaxuan" --wandb_tags "clean_test1"
+     --wandb_name "wandb_name" --user_name "user_name" --wandb_tags "clean_test1"
 done
