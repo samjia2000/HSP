@@ -519,10 +519,6 @@ class OvercookedRunner(Runner):
                         episode_env_infos[f'{log_name}-ep_shaped_r_by_agent1'].append(info['episode']['ep_shaped_r_by_agent'][1])
                         episode_env_infos[f'{log_name}-ep_sparse_r'].append(info['episode']['ep_sparse_r'])
                         episode_env_infos[f'{log_name}-ep_shaped_r'].append(info['episode']['ep_shaped_r'])
-                        for event in ["pickup_tomato_from_T", "delivery", "delivery_mix", "delivery_onion", "delivery_tomato", "first_tomato", "follow_tomato", "useful_tomato_pickup", "useless_tomato_pickup"]:
-                            episode_env_infos[f"{log_name}-event-{event}_by_agent0"].append(info['shaped_info_by_agent'][0][event])
-                            episode_env_infos[f"{log_name}-event-{event}_by_agent1"].append(info['shaped_info_by_agent'][1][event])
-                            episode_env_infos[f"{log_name}-event-{event}"].append(info['shaped_info_by_agent'][0][event] + info['shaped_info_by_agent'][1][event])
                 env_infos.update(episode_env_infos)
             self.env_info.update(env_infos)
             

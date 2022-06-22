@@ -76,7 +76,6 @@ class TrainerPool:
         self.active_trainers = []
         self.buffer_pool: Dict[str, SharedReplayBuffer] = {} 
         for trainer_name in self.trainer_pool.keys():
-            # @yuchao: this is a hack to use SharedReplayBuffer as a single-agent buffer for each trainer
             # set n_rollout_threads as control_agent_count[trainer_name] and num_agents as 1
             if self.control_agent_count[trainer_name] > 0:
                 policy_args, obs_space, share_obs_space, act_space = self.policy_config(trainer_name)
