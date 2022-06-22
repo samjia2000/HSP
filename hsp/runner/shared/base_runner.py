@@ -41,7 +41,7 @@ def make_trainer_policy_cls(algorithm_name, use_single_network=False):
     elif "population" == algorithm_name:
         from hsp.algorithms.population.trainer_pool import TrainerPool as TrainAlgo
         from hsp.algorithms.population.policy_pool import PolicyPool as Policy
-    elif algorithm_name == "mep":
+    elif algorithm_name == "mep" or algorithm_name == "adaptive":
         from hsp.algorithms.population.mep import MEP_Trainer as TrainAlgo
         from hsp.algorithms.population.policy_pool import PolicyPool as Policy
     elif algorithm_name == "traj":

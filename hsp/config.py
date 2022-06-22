@@ -180,11 +180,11 @@ def get_config():
             by default None. set the path to pretrained model.
     """
     parser = argparse.ArgumentParser(
-        description='onpolicy', formatter_class=argparse.RawDescriptionHelpFormatter)
+        description='hsp', formatter_class=argparse.RawDescriptionHelpFormatter)
 
     # prepare parameters
     parser.add_argument("--algorithm_name", type=str,
-                        default='mappo', choices=["rmappo", "mappo", "rmappg", "mappg", "ft_rrt", "ft_nearest", "ft_apf", "ft_utility", "overcooked_bc", "population", "mep", "traj"])
+                        default='mappo', choices=["rmappo", "mappo",  "overcooked_bc", "population", "mep", "traj", "adaptive"])
 
     parser.add_argument("--experiment_name", type=str, default="check", help="an identifier to distinguish different experiment.")
     parser.add_argument("--seed", type=int, default=1, help="Random seed for numpy/torch")

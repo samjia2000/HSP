@@ -112,7 +112,7 @@ def main(args):
     parser = get_config()
     all_args = parse_args(args, parser)
 
-    assert all_args.algorithm_name == "mep"
+    assert all_args.algorithm_name in ["mep", "adaptive"]
 
     # cuda
     if all_args.cuda and torch.cuda.is_available():

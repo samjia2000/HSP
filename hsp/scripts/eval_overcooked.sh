@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 env="Overcooked"
 
 # unident_s, random1, random3, distant_tomato, many_orders
@@ -15,7 +15,7 @@ agent0_policy_name="agent0_policy_name"
 agent1_policy_name="agent1_policy_name"
 exp="eval-${agent0_policy_name}-${agent1_policy_name}"
 
-path=/home/nfs_data/yuchao/project/onpolicy/onpolicy/envs/overcooked/policy_pool
+path=../policy_pool
 
 export POLICY_POOL=${path}
 
