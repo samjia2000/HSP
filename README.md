@@ -25,7 +25,6 @@ After the first stage training is done, copy the init/middle/final actor models 
             - mep1_mid_actor.pt
             - mep1_final_actor.pt
             ...
-            - mep12_final_actor.pt
 ```
 
 To perform second stage training, go to directory `hsp/scripts`, change to the correct layout name, and run `./train_overcooked_mep_stage_2.sh`
@@ -45,6 +44,6 @@ For the first stage, go to directory `hsp/scripts` and run `./hsp/s1/distant_tom
 
 
 
-Then we do evaluation for each pair of biased policy and adaptive policy to compute expected event counts. Run `./eval_events.sh` in directory `hsp/scripts`. After evaluation is done, run `python hsp/greedy_select.py --layout distant_tomato --k 18` which automaically selects biased policies and generates training configuration about policies in `hsp/policy_pool/distant_tomato/hsp/s2/train.yml`.
+Then we do evaluation for each pair of biased policy and adaptive policy to compute expected event counts. Run `./eval_events.sh` in directory `hsp/scripts`. After evaluation is done, run `python hsp/greedy_select.py --layout distant_tomato --k 18` which automaically selects biased policies and generates configuration about policy pool for adaptive training in `hsp/policy_pool/distant_tomato/hsp/s2/train.yml`.
 
-For the second stage, run `./hsp/s2/distant_tomato.sh` in directory `hsp/scripts` to do adaptive training.
+For the second stage, run `./hsp/s2/distant_tomato.sh` in directory `hsp/scripts`.

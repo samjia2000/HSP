@@ -1,8 +1,8 @@
 #!/bin/bash
 env="Overcooked"
 
-layout="many_orders"
-version="new"
+layout="unident_s"
+version="old"
 
 num_agents=2
 algo="mappo"
@@ -18,5 +18,5 @@ do
      --ppo_epoch 15 --wandb_name "wandb_name" --user_name "user_name" --reward_shaping_horizon 0 \
      --cnn_layers_params "32,3,1,1 64,3,1,1 32,3,1,1" --save_interval 25 --log_inerval 10 --use_recurrent_policy\
      --overcooked_version ${version} \
-     --use_hsp --w0 "0,0,0,0,0,r[-5:5:3],0,r[-5:5:3],0,r[0:5:2],0,0,r[-5:5:3],0,r[-10:10:3],r[-10:0:2],r[0:10:2],0,r[-3:3:3],r[-3:3:3],r[-10:0:2],r[0:1:2]" --w1 "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1" --random_index --share_policy 
+     --use_hsp --w0 "0,0,0,0,r[-10:10:3],0,r[0:10:2],0,0,r[-10:10:3],r[-10:10:3],r[-10:0:2],0,r[0:1:2]" --w1 "0,0,0,0,0,0,0,0,0,0,0,0,0,1" --random_index --share_policy 
 done
