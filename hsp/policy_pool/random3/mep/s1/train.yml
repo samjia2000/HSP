@@ -1,0 +1,52 @@
+alice:
+    policy_config_path: random3/policy_config/rnn_policy_config.pkl
+    featurize_type: ppo
+    train: False
+mep1:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep2:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep3:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep4:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep5:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep6:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep7:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep8:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep9:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep10:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep11:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
+mep12:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: True
