@@ -13,7 +13,7 @@ fi
 num_agents=2
 algo="adaptive"
 exp="test"
-stage="S2"
+stage="hsp-S2"
 seed=1
 path=../policy_pool
 
