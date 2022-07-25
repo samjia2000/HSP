@@ -1,0 +1,432 @@
+hsp1_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp1_w0_actor.pt
+hsp1_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp1_w1_actor.pt
+hsp2_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp2_w0_actor.pt
+hsp2_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp2_w1_actor.pt
+hsp3_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp3_w0_actor.pt
+hsp3_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp3_w1_actor.pt
+hsp4_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp4_w0_actor.pt
+hsp4_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp4_w1_actor.pt
+hsp5_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp5_w0_actor.pt
+hsp5_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp5_w1_actor.pt
+hsp6_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp6_w0_actor.pt
+hsp6_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp6_w1_actor.pt
+hsp7_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp7_w0_actor.pt
+hsp7_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp7_w1_actor.pt
+hsp8_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp8_w0_actor.pt
+hsp8_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp8_w1_actor.pt
+hsp9_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp9_w0_actor.pt
+hsp9_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp9_w1_actor.pt
+hsp10_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp10_w0_actor.pt
+hsp10_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp10_w1_actor.pt
+hsp11_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp11_w0_actor.pt
+hsp11_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp11_w1_actor.pt
+hsp12_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp12_w0_actor.pt
+hsp12_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp12_w1_actor.pt
+hsp13_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp13_w0_actor.pt
+hsp13_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp13_w1_actor.pt
+hsp14_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp14_w0_actor.pt
+hsp14_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp14_w1_actor.pt
+hsp15_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp15_w0_actor.pt
+hsp15_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp15_w1_actor.pt
+hsp16_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp16_w0_actor.pt
+hsp16_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp16_w1_actor.pt
+hsp17_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp17_w0_actor.pt
+hsp17_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp17_w1_actor.pt
+hsp18_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp18_w0_actor.pt
+hsp18_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp18_w1_actor.pt
+hsp19_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp19_w0_actor.pt
+hsp19_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp19_w1_actor.pt
+hsp20_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp20_w0_actor.pt
+hsp20_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp20_w1_actor.pt
+hsp21_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp21_w0_actor.pt
+hsp21_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp21_w1_actor.pt
+hsp22_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp22_w0_actor.pt
+hsp22_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp22_w1_actor.pt
+hsp23_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp23_w0_actor.pt
+hsp23_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp23_w1_actor.pt
+hsp24_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp24_w0_actor.pt
+hsp24_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp24_w1_actor.pt
+hsp25_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp25_w0_actor.pt
+hsp25_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp25_w1_actor.pt
+hsp26_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp26_w0_actor.pt
+hsp26_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp26_w1_actor.pt
+hsp27_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp27_w0_actor.pt
+hsp27_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp27_w1_actor.pt
+hsp28_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp28_w0_actor.pt
+hsp28_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp28_w1_actor.pt
+hsp29_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp29_w0_actor.pt
+hsp29_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp29_w1_actor.pt
+hsp30_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp30_w0_actor.pt
+hsp30_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp30_w1_actor.pt
+hsp31_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp31_w0_actor.pt
+hsp31_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp31_w1_actor.pt
+hsp32_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp32_w0_actor.pt
+hsp32_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp32_w1_actor.pt
+hsp33_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp33_w0_actor.pt
+hsp33_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp33_w1_actor.pt
+hsp34_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp34_w0_actor.pt
+hsp34_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp34_w1_actor.pt
+hsp35_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp35_w0_actor.pt
+hsp35_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp35_w1_actor.pt
+hsp36_w0:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp36_w0_actor.pt
+hsp36_w1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/hsp/s1/hsp36_w1_actor.pt

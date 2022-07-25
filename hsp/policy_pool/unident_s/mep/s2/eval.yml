@@ -1,0 +1,222 @@
+mep_adaptive:
+    policy_config_path: unident_s/policy_config/rnn_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s2/mep_adaptive.pt
+mep1_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep1_init_actor.pt
+mep1_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep1_mid_actor.pt
+mep1_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep1_final_actor.pt
+mep2_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep2_init_actor.pt
+mep2_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep2_mid_actor.pt
+mep2_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep2_final_actor.pt
+mep3_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep3_init_actor.pt
+mep3_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep3_mid_actor.pt
+mep3_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep3_final_actor.pt
+mep4_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep4_init_actor.pt
+mep4_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep4_mid_actor.pt
+mep4_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep4_final_actor.pt
+mep5_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep5_init_actor.pt
+mep5_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep5_mid_actor.pt
+mep5_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep5_final_actor.pt
+mep6_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep6_init_actor.pt
+mep6_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep6_mid_actor.pt
+mep6_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep6_final_actor.pt
+mep7_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep7_init_actor.pt
+mep7_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep7_mid_actor.pt
+mep7_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep7_final_actor.pt
+mep8_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep8_init_actor.pt
+mep8_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep8_mid_actor.pt
+mep8_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep8_final_actor.pt
+mep9_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep9_init_actor.pt
+mep9_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep9_mid_actor.pt
+mep9_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep9_final_actor.pt
+mep10_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep10_init_actor.pt
+mep10_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep10_mid_actor.pt
+mep10_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep10_final_actor.pt
+mep11_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep11_init_actor.pt
+mep11_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep11_mid_actor.pt
+mep11_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep11_final_actor.pt
+mep12_1:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep12_init_actor.pt
+mep12_2:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep12_mid_actor.pt
+mep12_3:
+    policy_config_path: unident_s/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: unident_s/mep/s1/mep12_final_actor.pt

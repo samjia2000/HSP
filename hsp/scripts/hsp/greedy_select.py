@@ -58,7 +58,7 @@ if __name__ == "__main__":
     args = parse_args(sys.argv[1:])
     layout = args.layout
     overcooked_version = "old"
-    if layout in ["{layout}", "many_orders"]:
+    if layout in ["distant_tomato", "many_orders"]:
         overcooked_version = "new"
     K = args.k
 
@@ -137,7 +137,7 @@ if __name__ == "__main__":
     
     # generate HSP training config
     with open(f"{args.policy_pool_path}/{layout}/hsp/s2/train.yml", "w") as f:
-        f.write(f"""alice:
+        f.write(f"""hsp_adaptive:
     policy_config_path: {layout}/policy_config/rnn_policy_config.pkl
     featurize_type: ppo
     train: True

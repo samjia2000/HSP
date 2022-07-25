@@ -1,0 +1,220 @@
+fcp_adaptive:
+    policy_config_path: many_orders/policy_config/rnn_policy_config.pkl
+    featurize_type: ppo
+    train: True
+sp1_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp1_init_actor.pt
+sp1_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp1_mid_actor.pt
+sp1_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp1_final_actor.pt
+sp2_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp2_init_actor.pt
+sp2_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp2_mid_actor.pt
+sp2_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp2_final_actor.pt
+sp3_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp3_init_actor.pt
+sp3_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp3_mid_actor.pt
+sp3_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp3_final_actor.pt
+sp4_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp4_init_actor.pt
+sp4_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp4_mid_actor.pt
+sp4_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp4_final_actor.pt
+sp5_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp5_init_actor.pt
+sp5_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp5_mid_actor.pt
+sp5_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp5_final_actor.pt
+sp6_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp6_init_actor.pt
+sp6_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp6_mid_actor.pt
+sp6_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp6_final_actor.pt
+sp7_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp7_init_actor.pt
+sp7_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp7_mid_actor.pt
+sp7_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp7_final_actor.pt
+sp8_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp8_init_actor.pt
+sp8_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp8_mid_actor.pt
+sp8_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp8_final_actor.pt
+sp9_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp9_init_actor.pt
+sp9_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp9_mid_actor.pt
+sp9_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp9_final_actor.pt
+sp10_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp10_init_actor.pt
+sp10_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp10_mid_actor.pt
+sp10_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp10_final_actor.pt
+sp11_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp11_init_actor.pt
+sp11_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp11_mid_actor.pt
+sp11_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp11_final_actor.pt
+sp12_1:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp12_init_actor.pt
+sp12_2:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp12_mid_actor.pt
+sp12_3:
+    policy_config_path: many_orders/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: many_orders/fcp/s1/sp12_final_actor.pt

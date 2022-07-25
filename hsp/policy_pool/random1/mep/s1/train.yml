@@ -1,4 +1,4 @@
-alice:
+mep_adaptive:
     policy_config_path: random1/policy_config/rnn_policy_config.pkl
     featurize_type: ppo
     train: False
