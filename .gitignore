@@ -18,7 +18,7 @@ logs
 *.out
 *.log
 png
-s1/*.pt
+*.pt
 biased_eval/*
 
 docker
