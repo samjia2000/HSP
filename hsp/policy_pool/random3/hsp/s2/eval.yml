@@ -1,0 +1,330 @@
+hsp_adaptive:
+    policy_config_path: random3/policy_config/rnn_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s2/hsp_adaptive.pt
+mep1_1:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep1_init_actor.pt
+mep1_2:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep1_mid_actor.pt
+mep1_3:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep1_final_actor.pt
+mep2_1:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep2_init_actor.pt
+mep2_2:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep2_mid_actor.pt
+mep2_3:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep2_final_actor.pt
+mep3_1:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep3_init_actor.pt
+mep3_2:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep3_mid_actor.pt
+mep3_3:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep3_final_actor.pt
+mep4_1:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep4_init_actor.pt
+mep4_2:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep4_mid_actor.pt
+mep4_3:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep4_final_actor.pt
+mep5_1:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep5_init_actor.pt
+mep5_2:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep5_mid_actor.pt
+mep5_3:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep5_final_actor.pt
+mep6_1:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep6_init_actor.pt
+mep6_2:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep6_mid_actor.pt
+mep6_3:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/mep/s1/mep6_final_actor.pt
+hsp1:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp1_w0_actor.pt
+hsp2:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp2_w0_actor.pt
+hsp3:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp3_w0_actor.pt
+hsp4:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp4_w0_actor.pt
+hsp5:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp5_w0_actor.pt
+hsp6:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp6_w0_actor.pt
+hsp7:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp7_w0_actor.pt
+hsp8:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp8_w0_actor.pt
+hsp9:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp9_w0_actor.pt
+hsp10:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp10_w0_actor.pt
+hsp11:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp11_w0_actor.pt
+hsp12:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp12_w0_actor.pt
+hsp13:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp13_w0_actor.pt
+hsp14:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp14_w0_actor.pt
+hsp15:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp15_w0_actor.pt
+hsp16:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp16_w0_actor.pt
+hsp17:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp17_w0_actor.pt
+hsp18:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp18_w0_actor.pt
+hsp19:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp19_w0_actor.pt
+hsp20:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp20_w0_actor.pt
+hsp21:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp21_w0_actor.pt
+hsp22:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp22_w0_actor.pt
+hsp23:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp23_w0_actor.pt
+hsp24:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp24_w0_actor.pt
+hsp25:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp25_w0_actor.pt
+hsp26:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp26_w0_actor.pt
+hsp27:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp27_w0_actor.pt
+hsp28:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp28_w0_actor.pt
+hsp29:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp29_w0_actor.pt
+hsp30:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp30_w0_actor.pt
+hsp31:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp31_w0_actor.pt
+hsp32:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp32_w0_actor.pt
+hsp33:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp33_w0_actor.pt
+hsp34:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp34_w0_actor.pt
+hsp35:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp35_w0_actor.pt
+hsp36:
+    policy_config_path: random3/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random3/hsp/s1/hsp36_w0_actor.pt
