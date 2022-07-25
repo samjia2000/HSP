@@ -18,7 +18,8 @@ logs
 *.out
 *.log
 png
-*/s1/*.pt
+s1/*.pt
+biased_eval/*
 
 docker
 dataset
