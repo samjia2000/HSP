@@ -11,7 +11,7 @@ import imageio
 import os
 import pickle
 from collections import defaultdict
-# from hsp.envs.overcooked_new.script_agent import SCRIPT_AGENTS
+from hsp.envs.overcooked_new.script_agent import SCRIPT_AGENTS
 
 DEFAULT_ENV_PARAMS = {
     "horizon": 400
