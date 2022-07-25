@@ -1,6 +1,20 @@
 # HSP
 This is a repository for Hidden-utility Self-Play.
 
+# Installation
+
+
+```
+conda create -n hsp
+conda activate marl
+pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+cd hsp
+pip install -e . 
+pip install wandb icecream setproctitle gym seaborn tensorboardX slackweb psutil slackweb pyastar2d einops
+```
+
+We use [wandb](https://wandb.ai) to monitor logs. See the the [official website](https://wandb.ai) and the code for some examples.
+
 # Overcooked
 Our experiments are conducted in three layouts from [On the Utility of Learning about Humans for Human-AI Coordination](https://github.com/HumanCompatibleAI/human_aware_rl/tree/neurips2019), named *Asymmetric Advantages*, *Coordination Ring*, and *Counter Circuit*,  and two designed layouts, named *Distant Tomato* and *Many Orders*. These layouts are named "unident_s", "random1", "random3", "distant_tomato" and "many_orders" respectively in the code.
 

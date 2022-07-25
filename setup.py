@@ -13,7 +13,7 @@ def get_version() -> str:
 setup(
     name="hsp",  # Replace with your own username
     version=get_version(),
-    description="on-policy algorithms of marlbenchmark",
+    description="hidden-utility self-play",
     long_description=open("README.md", encoding="utf8").read(),
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
