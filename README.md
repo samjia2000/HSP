@@ -53,3 +53,18 @@ For the second stage, run `./train_hsp_all_S2.sh`.
 Run `./eval_overcooked.sh` for evaluation. You can change the layout name, path to YAML file of population configuration and policies to evaluate in `eval_overcooked.sh`. To evaluate with script policies, change policy name to a string with `script:` as prefix, for example, `script:place_onion_and_deliver_soup`. For more script policies, check `script_agent.py` under the overcooked environment directories.
 
 TODO: more detailed evaluation.
+
+# Publication
+
+If you find this repository useful, please [cite our paper](https://openreview.net/forum?id=TrwE8l9aJzs):
+
+```
+@inproceedings{
+yu2023learning,
+title={Learning Zero-Shot Cooperation with Humans, Assuming Humans Are Biased},
+author={Chao Yu and Jiaxuan Gao and Weilin Liu and Botian Xu and Hao Tang and Jiaqi Yang and Yu Wang and Yi Wu},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=TrwE8l9aJzs}
+}
+```
