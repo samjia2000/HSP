@@ -35,7 +35,7 @@ In the second stage, run `./train_fcp_all_S2.sh` to train an adaptive policy aga
 ## MEP
 We reimplemented [Maximum Entropy Population-Based Training for Zero-Shot Human-AI Coordination](https://github.com/ruizhaogit/maximum_entropy_population_based_training) and achieved significant higher episode reward when paired with human proxy models than reported in original paper. 
 
-For the first stage, run `./train_mep_all_S1.sh`. After training is finished, run `python extract_mep_all_S1_models.py` to extract checkpoints of the MEP policies into the policy pool. 
+For the first stage, run `./train_mep_all_S1.sh`. After training is finished, run `python extract_mep_S1_models.py` to extract checkpoints of the MEP policies into the policy pool. 
 
 For the second stage, run `./train_mep_all_S2.sh`.
 
